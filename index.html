@@ -842,11 +842,18 @@ border-bottom: 7px solid transparent;
   line-height: 1;
   letter-spacing: -1px;
 
-  background: var(--gold-btn);
+  background: linear-gradient(
+    180deg,
+    #fff8cc 0%,
+    #f3d36a 40%,
+    #d4af37 65%,
+    #b8962e 100%
+  );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  filter: drop-shadow(0 6px 14px rgba(255,215,160,.6));
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,.25));
 }
 
 /* Texto (DÍAS, HORAS…) */
